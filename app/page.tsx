@@ -8,8 +8,6 @@ export default function Home() {
     streamable.append(<p>Foo</p>);
     setTimeout(() => {
       streamable.append(<p>Bar</p>);
-      // Uncommenting the line below will fix the issue
-      // streamable.done();
     }, 1000);
   }, 1000);
 
